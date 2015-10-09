@@ -17,7 +17,7 @@ gem "safe_constantize"
 ## Usage
 
 ```ruby
-SafeConstantize.constantize("File", ["File"]) => File
+SafeConstantize.constantize("File", ["File"]) #=> File
 SafeConstantize.constantize("File", ["String"]) #=> Error: SafeConstantize::IllegalClassToConstantize
 ```
 
