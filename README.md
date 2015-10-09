@@ -1,3 +1,5 @@
+[![Build Status](https://img.shields.io/shippable/5617b5e11895ca44741beb2e.svg)](https://app.shippable.com/projects/5617b5e11895ca44741beb2e/builds/latest)
+
 # Safe Constantize
 
 A library that behaves like- and utilizes String#constantize but implements a layer of security.
