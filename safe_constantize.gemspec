@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/safe_constantize.rb",
+    "safe_constantize.gemspec",
     "shippable.yml",
     "spec/safe_constantize_spec.rb",
     "spec/spec_helper.rb"
