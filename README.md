@@ -1,9 +1,14 @@
-= safe_constantize
+= Safe Constantize
 
-Description goes here.
+A library that behaves like- and utilizes String#constantize but implements a layer of security.
+
+Read about the security problems here:
+
+http://blog.littleimpact.de/index.php/2008/08/13/constantize-with-care/
+
 
 == Contributing to safe_constantize
- 
+
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
 * Fork the project.

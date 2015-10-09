@@ -1,4 +1,6 @@
-require 'simplecov'
+require "simplecov"
+require "safe_constantize"
+require "active_support/inflector"
 
 module SimpleCov::Configuration
   def clean_filters
@@ -25,5 +27,4 @@ require 'safe_constantize'
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each {|f| require f}
 
 RSpec.configure do |config|
-
 end
